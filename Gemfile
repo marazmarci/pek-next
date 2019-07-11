@@ -45,7 +45,7 @@ gem 'unsplash'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug'
+  gem 'byebug', '~> 11.0.1'
   # Brakeman: security tool
   gem 'brakeman', require: false
   # RSpec for more modern testing

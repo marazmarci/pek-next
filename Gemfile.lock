@@ -46,7 +46,7 @@ GEM
       debug_inspector (>= 0.0.1)
     brakeman (4.0.1)
     builder (3.2.3)
-    byebug (9.1.0)
+    byebug (11.0.1)
     coderay (1.1.2)
     concurrent-ruby (1.1.5)
     connection_pool (2.2.1)
@@ -262,7 +262,7 @@ DEPENDENCIES
   better_errors (~> 2.5.1)
   binding_of_caller (~> 0.7.3.pre1)
   brakeman
-  byebug
+  byebug (~> 11.0.1)
   dotenv-rails
   draper
   em-http-request
